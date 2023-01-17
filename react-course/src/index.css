@@ -5,19 +5,19 @@
 body {
   font-family: sans-serif;
   margin: 3rem;
-  background-color: #191919;
+  background-color: #dfdfdf;
 }
 
 h1,
 h2 {
-  color: #fff;
+  color: #333333;
 }
 
 .btn {
   font: inherit;
   padding: 0.5rem 1.5rem;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: 4px;
   background-color: #78c81e;
   color: white;
   border: 1px solid #78c81e;
@@ -25,8 +25,8 @@ h2 {
 }
 
 .btn:hover {
-  background-color: #365a0d;
-  border-color: #365a0d;
+  background-color: #568f15;
+  border-color: #568f15;
 }
 
 .btn--alt {
@@ -39,9 +39,9 @@ h2 {
 }
 
 .card {
-  background-color: #282828;
-  border-radius: 8px;
-  box-shadow: 0 1px 4px rgba(255, 255, 255, 0.2);
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   padding: 1rem;
   width: 20rem;
 }
@@ -57,7 +57,7 @@ h2 {
   padding: 1rem;
   text-align: center;
   width: 30rem;
-  z-index: 10;
+  z-index: 20;
   position: fixed;
   top: 20vh;
   left: calc(50% - 15rem);
